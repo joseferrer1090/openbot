@@ -38,7 +38,7 @@ class Header extends Component {
                 <nav className="navbar theme-main-menu">
                     <div className="container">
                         <div className="Mu-color-one main-container clear-fix">
-                            <a href="appointment-form.html" className="float-right hvr-shutter-out-horizontal">Appointment &nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></a>
+                            <a href="appointment-form.html" className="float-right hvr-shutter-out-horizontal">Login &nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></a>
 
                             <div className="menu-wrapper clear-fix float-left">
 
@@ -51,49 +51,33 @@ class Header extends Component {
 
                                 <div className="collapse navbar-collapse" id="navbar-collapse-1">
                                     <ul className="nav navbar-nav">
-                                        <li className="dropdown-holder active"><a href="index.html">Home</a>
-                                            <ul className="sub-menu">
+                                        <li className="dropdown-holder active"><a href="index.html">Inicio</a>
+                                            <ul className="sub-menu hidden">
                                                 <li><a href="index.html">Home Version One</a></li>
                                                 <li><a href="index-vs2.html">Home Version Two</a></li>
                                             </ul>
                                         </li>
-                                        <li className="dropdown-holder"><a href="about-us-v1.html">About us</a>
-                                            <ul className="sub-menu">
+                                        <li className="dropdown-holder hidden"><a href="about-us-v1.html">Nosotros</a>
+                                            { /* <ul className="sub-menu">
                                                 <li><a href="about-us.html">about version one</a></li>
                                                 <li><a href="about-vs2.html">about version two</a></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
-                                        <li className="dropdown-holder"><a href="service-v1.html">Services</a>
+                                        <li><a href="contact.html">Signal BTC</a></li>
+                                        <li><a href="contact.html">Multilevel Bot</a></li>
+                                        <li><a href="contact.html">Bot</a></li>
+                                        <li><a href="contact.html">E-learning</a></li>
+                                        <li><a href="contact.html">Trading</a></li>
+
+                                        {/*<li className="dropdown-holder"><a href="service-v1.html">Servicios</a>
                                             <ul className="sub-menu">
-                                                <li><a href="service.html">Service version one</a></li>
-                                                <li><a href="service-singel.html">Service singel</a></li>
+                                                <li><a href="#">Signal BTC</a></li>
+                                                <li><a href="#">Multilevel Bot</a></li>
+                                                <li><a href="#">Bot</a></li>
+                                                <li><a href="#">E-learning</a></li>
+                                                <li><a href="#">Trading</a></li>
                                             </ul>
-                                        </li>
-                                        <li className="dropdown-holder"><a href="project.html">Projects</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="project.html">Project</a></li>
-                                                <li><a href="project-vs2.html">project version Two</a></li>
-                                                <li><a href="project-vs3.html">project version Three</a></li>
-                                                <li><a href="project-vs4.html">project version four</a></li>
-                                                <li><a href="project-single.html">project-single</a></li>
-                                                <li><a href="project-single-vs2.html">project-single-vs2</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="dropdown-holder"><a href="#">Pages</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="faq.html">faq</a></li>
-                                                <li><a href="our-team.html">our team</a></li>
-                                                <li><a href="error.html">Error</a></li>
-                                                <li><a href="appointment-form.html">appointment form</a></li>
-                                            </ul>
-                                        </li>
-                                        <li className="dropdown-holder"><a href="news-v1.html">Blogs</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="blog-vs2.html">Blog version Two</a></li>
-                                                <li><a href="blog-single.html">blog single</a></li>
-                                            </ul>
-                                        </li>
+                                        </li>*/}
                                         <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>

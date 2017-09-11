@@ -1,15 +1,19 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 
+import LogOpenBot from './../Layouts/img/Recurso2.png'
+
 class Header extends Component {
     render(){
         return(
             <header>
                 <div className="container">
-                    <div className="logo float-left"><a href="index.html"><img src="images/logo/logo.png" alt="Logo" /></a>
+                    <div className="logo float-left">
+                        <a href="/"><img className="img-responsive" src={LogOpenBot} alt="Logo" style={{width:'200px', marginTop:'-30px'}} /></a>
                     </div>
                     <div className="address-list float-left">
                         <ul>
+                            <li></li>
                             <li>
                                 <div className="icon"><i className="flaticon-signs header-flat" aria-hidden="true" /></div>
                                 12/A New market, NY</li>
@@ -27,7 +31,7 @@ class Header extends Component {
                             <li><a href="#" className><i className="fa fa-linkedin" aria-hidden="true" /></a></li>
                         </ul>
                     </div>
-                    <div className="search float-right theme-search-box">
+                    <div className="search float-right theme-search-box hidden">
                         <form>
                             <input type="text" className="search-color" placeholder="Search" />
                             <button><span className><i className="fa fa-search" /></span></button>
@@ -38,7 +42,7 @@ class Header extends Component {
                 <nav className="navbar theme-main-menu">
                     <div className="container">
                         <div className="Mu-color-one main-container clear-fix">
-                            <a href="appointment-form.html" className="float-right hvr-shutter-out-horizontal">Login &nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></a>
+                            <a href="#login" className="float-right hvr-shutter-out-horizontal">Login &nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></a>
 
                             <div className="menu-wrapper clear-fix float-left">
 
@@ -51,34 +55,18 @@ class Header extends Component {
 
                                 <div className="collapse navbar-collapse" id="navbar-collapse-1">
                                     <ul className="nav navbar-nav">
-                                        <li className="dropdown-holder active"><a href="index.html">Inicio</a>
-                                            <ul className="sub-menu hidden">
-                                                <li><a href="index.html">Home Version One</a></li>
-                                                <li><a href="index-vs2.html">Home Version Two</a></li>
-                                            </ul>
+                                        <li className="dropdown-holder active">
+                                            <a href="/">Inicio</a>
                                         </li>
-                                        <li className="dropdown-holder hidden"><a href="about-us-v1.html">Nosotros</a>
-                                            { /* <ul className="sub-menu">
-                                                <li><a href="about-us.html">about version one</a></li>
-                                                <li><a href="about-vs2.html">about version two</a></li>
-                                            </ul> */}
+                                            <li><a href="#signalbtc">Signal BTC</a></li>
+                                            <li><a href="#multilevel">Multilevel Bot</a></li>
+                                            <li><a href="#bot">Bot</a></li>
+                                            <li><a href="#elearning">E-learning</a></li>
+                                            <li><a href="#trading">Trading</a></li>
+                                        <li>
+                                            <a href="#contact">Contacto</a>
                                         </li>
-                                        <li><a href="contact.html">Signal BTC</a></li>
-                                        <li><a href="contact.html">Multilevel Bot</a></li>
-                                        <li><a href="contact.html">Bot</a></li>
-                                        <li><a href="contact.html">E-learning</a></li>
-                                        <li><a href="contact.html">Trading</a></li>
-
-                                        {/*<li className="dropdown-holder"><a href="service-v1.html">Servicios</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="#">Signal BTC</a></li>
-                                                <li><a href="#">Multilevel Bot</a></li>
-                                                <li><a href="#">Bot</a></li>
-                                                <li><a href="#">E-learning</a></li>
-                                                <li><a href="#">Trading</a></li>
-                                            </ul>
-                                        </li>*/}
-                                        <li><a href="contact.html">Contact</a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>

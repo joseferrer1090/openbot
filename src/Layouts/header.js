@@ -19,21 +19,20 @@ class Header extends Component {
                                 12/A New market, NY</li>
                             <li>
                                 <div className="icon"><i className="flaticon-mail  header-flat" aria-hidden="true" /></div>
-                                Info_bcore@gmail.com
+                                info@openbot.com
                             </li>
                         </ul>
                     </div>
-                    <div className="social-icon float-left">
+                    <div className="social-icon float-left hidden">
                         <ul>
-                            <li><a href="#" className><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                            <li><a href="#" className><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-                            <li><a href="#" className><i className="fa fa-vine" aria-hidden="true" /></a></li>
-                            <li><a href="#" className><i className="fa fa-linkedin" aria-hidden="true" /></a></li>
+                            <li><a href="#" className><i className="fa fa-facebook fa-1x" aria-hidden="true" /></a></li>
+                            <li><a href="#" className><i className="fa fa-twitter fa-1x" aria-hidden="true" /></a></li>
+                            <li><a href="#" className><i className="fa fa-instagram fa-1x" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                    <div className="search float-right theme-search-box hidden">
+                    <div className="search float-right theme-search-box">
                         <form>
-                            <input type="text" className="search-color" placeholder="Search" />
+                            <input type="text" className="search-color" placeholder="Buscar" />
                             <button><span className><i className="fa fa-search" /></span></button>
                         </form>
                     </div>

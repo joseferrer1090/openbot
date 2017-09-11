@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 
+import LogOpenBot from './../Layouts/img/Recurso2.png'
 
 class Footer extends Component {
     render (){
@@ -11,8 +12,8 @@ class Footer extends Component {
                         <div className="row">
                             <div className="col-md-4 col-sm-4 col-xs-12">
                                 <div className="footer-logo">
-                                    <div className="logo"><a href="index.html"><img src="images/logo/logo.png" alt="Logo" /></a></div>
-                                    <h6>b core was established in 2017 by talented business veterans, Rod Davies and Matthew Levington, the journey began when founders Matthew Levington and Rod Davies, met up in 2017 over a beer</h6>
+                                    <div className="logo"><a href="/"><img src={LogOpenBot} alt="Logo" style={{width:'50%'}} /></a></div>
+                                    <h6 className="text-justify">b core was established in 2017 by talented business veterans, Rod Davies and Matthew Levington, the journey began when founders Matthew Levington and Rod Davies, met up in 2017 over a beer</h6>
                                     <ul className="footer-icon">
                                         <li><a href="#" className="round-border hvr-shutter-out-horizontal-three"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
                                         <li><a href="#" className="round-border hvr-shutter-out-horizontal-three"><i className="fa fa-linkedin" aria-hidden="true" /></a></li>
@@ -20,8 +21,8 @@ class Footer extends Component {
                                         <li><a href="#" className="round-border hvr-shutter-out-horizontal-three"><i className="fa fa-dribbble" aria-hidden="true" /></a></li>
                                     </ul>
                                     <ul className="footer-featured">
-                                        <li><a href="news-details.html" className>Privacy Policy</a></li>
-                                        <li><a href="news-details.html" className>Legal Policy</a></li>
+                                        <li><a href="news-details.html" className>Privacidad</a></li>
+                                        <li><a href="news-details.html" className>Terminos y condiciones</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -66,11 +67,11 @@ class Footer extends Component {
                     <div className="bottom-footer">
                         <div className="container">
                             <div className="float-left">
-                                <p>Copyright ©2017 <a href="https://themeforest.net/user/designolo/portfolio" className="tran3s p-color" target="_blank">bcore</a> All Rights Reserved by <a href="https://themeforest.net/user/designolo/portfolio" className="p-color tran3s" target="_blank">ollo</a></p>
-                            </div> {/* /.float-left */}
-                            <div className="float-right">
+                                <p>Copyright ©2017 <a href="/" className="tran3s p-color" target="_blank">OpenBot</a> Derechos Reservados  <a href="/" className="p-color tran3s" target="_blank">Maxcorp SAS</a></p>
+                            </div>
+                            <div className="float-right hidden">
                                 <form action="#">
-                                    <input type="text" placeholder="Your email" />
+                                    <input type="text" placeholder="Tu email" />
                                     <button className="hvr-shutter-out-horizontal">Subscribe</button>
                                 </form>
                             </div>

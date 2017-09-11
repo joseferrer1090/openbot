@@ -13,7 +13,7 @@ class SignalBTC extends Component {
                     <section className="inner-page-banner">
                         <div className="opacity">
                             <div className="container">
-                                <h2>Señales de BTC</h2>
+                                <h2>Signal BTC</h2>
                             </div>
                         </div>
                     </section>

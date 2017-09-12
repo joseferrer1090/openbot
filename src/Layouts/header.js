@@ -16,7 +16,7 @@ class Header extends Component {
                             <li></li>
                             <li>
                                 <div className="icon"><i className="flaticon-signs header-flat" aria-hidden="true" /></div>
-                                12/A New market, NY</li>
+                                Direccion Direccion</li>
                             <li>
                                 <div className="icon"><i className="flaticon-mail  header-flat" aria-hidden="true" /></div>
                                 info@openbot.com

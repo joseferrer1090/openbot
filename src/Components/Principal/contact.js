@@ -29,7 +29,7 @@ class Contact extends Component {
                           <div className="col-lg-8 col-md-8 col-sm-6 col-xs-12">
                             <div className="contact-us-section">
                               <h2>Envia tu requerimiento</h2>
-                              <form action="" className="theme-form-two form-validation" autoComplete="off">
+                              <form action="" className="theme-form-two " autoComplete="off">
                                 <textarea placeholder="Mensaje" name="message" defaultValue={""} />
                                 <input type="text" placeholder="Asunto" name="sub" />
                                 <div className="row">
@@ -41,7 +41,7 @@ class Contact extends Component {
                                   </div>
                                 </div>
                                 <div className="buttonDiv text-center">
-                                  <button className="hvr-shutter-out-horizontal-two">Enviar Requerimiento &nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></button>
+                                  <button className="hvr-shutter-out-horizontal-two">Enviar Requerimiento &nbsp;&nbsp;<i className="fa fa-envelope" aria-hidden="true" /></button>
                                 </div>
                                 <br/>
                               </form> 
@@ -66,18 +66,18 @@ class Contact extends Component {
                           <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div className="contact-single-list">
                               <ul>
-                                <li><a href="#" className><i className="flaticon-technology" aria-hidden="true" />( +88 ) 01912704281</a></li>
+                                <li><a href="#" className><i className="flaticon-technology" aria-hidden="true" />( +57 ) </a></li>
                                 <li><a href="#" className><i className="flaticon-mail" aria-hidden="true" />info@openbot.com</a></li>
-                                <li className><a href="#"><i className="fa fa-globe" aria-hidden="true" /></a><p>123 Fake Street- Panama Road, 12/1, London</p></li>
-                                <li>Brooklyn, NY 10036, Road victor United States</li>
+                                <li className><a href="#"><i className="fa fa-globe" aria-hidden="true" /></a><p> </p></li>
+                                <li> </li>
                               </ul>
                             </div> 
                             <div className="social-icon">
                               <h6> Redes Sociales </h6>
                               <ul>
-                                <li><a href="#" className=" hvr-shutter-out-horizontal-three"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                                <li><a href="#" className=" hvr-shutter-out-horizontal-three"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-                                <li><a href="#" className=" hvr-shutter-out-horizontal"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#" className=" hvr-shutter-out-horizontal-two"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
+                                <li><a href="#" className=" hvr-shutter-out-horizontal-two"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
+                                <li><a href="#" className=" hvr-shutter-out-horizontal-two"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
                               </ul>
                             </div> 
                           </div>

@@ -13,7 +13,9 @@ class Footer extends Component {
                             <div className="col-md-4 col-sm-4 col-xs-12">
                                 <div className="footer-logo">
                                     <div className="logo"><a href="/"><img src={LogOpenBot} alt="Logo" style={{width:'50%'}} /></a></div>
-                                    <h6 className="text-justify">b core was established in 2017 by talented business veterans, Rod Davies and Matthew Levington, the journey began when founders Matthew Levington and Rod Davies, met up in 2017 over a beer</h6>
+                                    <h6 className="text-justify">OpenBot Es el producto estrella de una compañía internacional con oficinas físicas en Holanda.
+                                        Donde te ofrecemos una reentabilidad real de cada uno de nuestro producto.
+                                    </h6>
                                     <ul className="footer-icon">
                                         <li><a href="#" className="round-border hvr-shutter-out-horizontal-three"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
                                         <li><a href="#" className="round-border hvr-shutter-out-horizontal-three"><i className="fa fa-linkedin" aria-hidden="true" /></a></li>

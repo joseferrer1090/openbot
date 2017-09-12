@@ -10,7 +10,7 @@ class Bot extends Component {
             <div>
                 <div className="main-page-wrapper" >
                     <Header/>
-                    <section className="inner-page-banner">
+                    <section className="inner-page-banner5">
                         <div className="opacity">
                             <div className="container">
                                 <h2>Bot</h2>

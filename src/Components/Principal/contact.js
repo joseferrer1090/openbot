@@ -11,7 +11,7 @@ class Contact extends Component {
             <div>
                 <div className="main-page-wrapper">
                     <Header/>
-                    <section className="inner-page-banner">
+                    <section className="inner-page-banner4">
                         <div className="opacity">
                             <div className="container">
                                 <h2>Contacto</h2>

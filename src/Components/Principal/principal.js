@@ -16,22 +16,29 @@ class Principal extends Component{
                     <Slider/>
                     <section className="We-Are-Popular">
                         <div className="container">
-                            <h2>We Are Popular Everywhere</h2>
-                            <h6>Build your team around your business structure, Often a business builds its structure around<br/> people rather than people around structures. This leads to the position where loyal people<br/> end up in roles that they are not suitable for</h6>	  
+                            <h2>¿ Por que OpenBot ?</h2>
+                            <h6>
+                                Es el  producto estrella de una  compañía internacional con oficinas físicas en  Holanda, la cual  propone
+                                <br/> implementar sus herramientas para incrementar los resultados en el mercado de valores de las <br/> 
+                                Cryptomonedas a través del Trading, guiado por expertos mundiales.
+                            </h6>
                             <div className="row">
                                 <div className="col-md-8 popular-map">
                                     <img src={imgOpenBot} alt="" className="img-responsive"/>
                                 </div>
                                 <div className="col-md-4 popular-tex">
                                 <div className="popular-text">
-                                    <h5>First One</h5>
-                                        <p>Doing some hard thinking about the context that your business inhabits in order to protect it against what's around the corner, shouldn't feel overwhelming</p>
-                                        <a href="#about" className>More Explore&nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></a>
+                                    <h5>Soporte 24/4</h5>
+                                        <p className="text-justify"> Para el grupo de trabajo de <b>OpenBot</b>, es importante
+                                            mantener a nuetros clientes felices y libre de todas las dudas con respecto a nuestro productos.
+                                          </p>
+                                        <a href="#about" className>Ver mas&nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></a>
                                     </div>
                                     <div className="popular-text">
-                                    <h5>First One</h5>
-                                        <p>Doing some hard thinking about the context that your business inhabits in order to protect it against what's around the corner, shouldn't feel overwhelming</p>
-                                        <a href="#about" className>More Explore&nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></a>
+                                    <h5>Señales del Mercado</h5>
+                                        <p className="text-justify">Mantener alerta a nuestro clientes sobre el comportamiento del mercado, con <b>OpenBot</b> &nbsp;
+                                        probar siempre estar a la vanguardia del mercado sopresisvo de las <b>Criptomonedad</b>.</p>
+                                        <a href="#about" className>Ver mas&nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></a>
                                     </div>
                                 </div>
                             </div>

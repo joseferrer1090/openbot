@@ -10,7 +10,7 @@ class Botlevel extends Component {
             <div>
                 <div className="main-page-wrapper">
                     <Header/>
-                    <section className="inner-page-banner">
+                    <section className="inner-page-banner3">
                         <div className="opacity">
                             <div className="container">
                                 <h2>Multilevel Bot</h2>

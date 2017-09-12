@@ -1799,7 +1799,204 @@
  .inner-page-banner .opacity ul li a {
      color: #fff;
  }
- /*** 
+ 
+ .inner-page-banner {
+     background: url(../images/inner-page/about-us-banner.jpg) no-repeat center;
+     background-size: cover;
+ }
+ 
+ .inner-page-banner .opacity {
+     background: rgba(0, 0, 0, 0.85);
+     padding: 200px 0 22px 0;
+ }
+ 
+ .inner-page-banner .opacity h2 {
+     font-size: 52px;
+     line-height: 30px;
+     color: #fff;
+     text-align: center;
+     margin: 30px 0 88px 0;
+ }
+ 
+ .inner-page-banner .opacity ul li {
+     display: inline-block;
+     font-size: 18px;
+     color: #fff;
+     line-height: 30px;
+     margin-right: 4px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+ }
+ 
+ .inner-page-banner .opacity ul li a {
+     color: #fff;
+ }
+ /* ------------------- */
+ 
+ .inner-page-banner2 {
+     background: url(../images/inner-page/openbot-bg6.png) no-repeat center;
+     background-size: cover;
+ }
+ 
+ .inner-page-banner2 .opacity {
+     background: rgba(0, 0, 0, 0.85);
+     padding: 200px 0 22px 0;
+ }
+ 
+ .inner-page-banner2 .opacity h2 {
+     font-size: 52px;
+     line-height: 30px;
+     color: #fff;
+     text-align: center;
+     margin: 30px 0 88px 0;
+ }
+ 
+ .inner-page-banner2 .opacity ul li {
+     display: inline-block;
+     font-size: 18px;
+     color: #fff;
+     line-height: 30px;
+     margin-right: 4px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+ }
+ 
+ .inner-page-banner2 .opacity ul li a {
+     color: #fff;
+ }
+ /* ---------------------------------------------- */
+ 
+ .inner-page-banner3 {
+     background: url(../images/inner-page/openbot-bg1.png) no-repeat center;
+     background-size: cover;
+ }
+ 
+ .inner-page-banner3 .opacity {
+     background: rgba(0, 0, 0, 0.85);
+     padding: 200px 0 22px 0;
+ }
+ 
+ .inner-page-banner3 .opacity h2 {
+     font-size: 52px;
+     line-height: 30px;
+     color: #fff;
+     text-align: center;
+     margin: 30px 0 88px 0;
+ }
+ 
+ .inner-page-banner3 .opacity ul li {
+     display: inline-block;
+     font-size: 18px;
+     color: #fff;
+     line-height: 30px;
+     margin-right: 4px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+ }
+ 
+ .inner-page-banner3 .opacity ul li a {
+     color: #fff;
+ }
+ /* -------------------------------------------- */
+ 
+ .inner-page-banner4 {
+     background: url(../images/inner-page/openbot-bg3.png) no-repeat center;
+     background-size: cover;
+ }
+ 
+ .inner-page-banner4 .opacity {
+     background: rgba(0, 0, 0, 0.85);
+     padding: 200px 0 22px 0;
+ }
+ 
+ .inner-page-banner4 .opacity h2 {
+     font-size: 52px;
+     line-height: 30px;
+     color: #fff;
+     text-align: center;
+     margin: 30px 0 88px 0;
+ }
+ 
+ .inner-page-banner4 .opacity ul li {
+     display: inline-block;
+     font-size: 18px;
+     color: #fff;
+     line-height: 30px;
+     margin-right: 4px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+ }
+ 
+ .inner-page-banner4 .opacity ul li a {
+     color: #fff;
+ }
+ /* ---------------------------------------------- */
+ 
+ .inner-page-banner5 {
+     background: url(../images/inner-page/openbot-bg2.png) no-repeat center;
+     background-size: cover;
+ }
+ 
+ .inner-page-banner5 .opacity {
+     background: rgba(0, 0, 0, 0.85);
+     padding: 200px 0 22px 0;
+ }
+ 
+ .inner-page-banner5 .opacity h2 {
+     font-size: 52px;
+     line-height: 30px;
+     color: #fff;
+     text-align: center;
+     margin: 30px 0 88px 0;
+ }
+ 
+ .inner-page-banner5 .opacity ul li {
+     display: inline-block;
+     font-size: 18px;
+     color: #fff;
+     line-height: 30px;
+     margin-right: 4px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+ }
+ 
+ .inner-page-banner5 .opacity ul li a {
+     color: #fff;
+ }
+ /* ------------------------------------------------------- */
+ 
+ .inner-page-banner6 {
+     background: url(../images/inner-page/openbot-bg4.png) no-repeat center;
+     background-size: cover;
+ }
+ 
+ .inner-page-banner6 .opacity {
+     background: rgba(0, 0, 0, 0.85);
+     padding: 200px 0 22px 0;
+ }
+ 
+ .inner-page-banner6 .opacity h2 {
+     font-size: 52px;
+     line-height: 30px;
+     color: #fff;
+     text-align: center;
+     margin: 30px 0 88px 0;
+ }
+ 
+ .inner-page-banner6 .opacity ul li {
+     display: inline-block;
+     font-size: 18px;
+     color: #fff;
+     line-height: 30px;
+     margin-right: 4px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: 400;
+ }
+ 
+ .inner-page-banner6 .opacity ul li a {
+     color: #fff;
+ }
+ /***
 
 ====================================================================
  about-Us-details

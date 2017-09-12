@@ -44,7 +44,7 @@ class Slider extends Component {
                     </div>
                 </div>
 
-                <div className="Get-Quote-banner wow fadeInUp">
+                <div className="Get-Quote-banner wow fadeInUp hidden">
                     <div className="container">
                         <h4 className="float-left">Top tips for hiring and firing in a growing business, Get financial planing Solution</h4>
                         <a href="#" className=" float-right hvr-shutter-out-horizontal-two">Get Quote</a>

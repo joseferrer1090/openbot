@@ -28,29 +28,28 @@ class Footer extends Component {
                             </div>
                             <div className="col-md-4 col-sm-4 col-xs-12">
                                 <div className="footer-Useful-Links">
-                                    <h5>Useful Links</h5>
+                                    <h5>Link de importancia</h5>
                                     <ul>
-                                        <li><a href="index.html" className>Home</a></li>
-                                        <li><a href="about-us.html" className>About us </a></li>
-                                        <li><a href="project.html" className>Project</a></li>
-                                        <li><a href="our-team.html" className>Advisors</a></li>
-                                        <li><a href="service.html" className>Performance</a></li>
-                                        <li><a href="blog.html" className>News</a></li>
-                                        <li><a href="appointment-form.html" className>Conditions</a></li>
+                                        <li><a href="" className>Inicio</a></li>
+                                        <li><a href="" className>Signal BTC </a></li>
+                                        <li><a href="" className>Bot</a></li>
+                                        <li><a href="" className>Bitrex</a></li>
+                                        <li><a href="" className>Plan Carrera</a></li>
+                                        <li><a href="" className>Contacto</a></li>
                                     </ul>
                                     <ul>
-                                        <li><a href="contact-us.html" className>About us</a></li>
-                                        <li><a href="service-singel.html" className>Our History</a></li>
-                                        <li><a href="news-v2.html" className>Case Studies</a></li>
-                                        <li><a href="blog-single.html" className>Events</a></li>
-                                        <li><a href="project-single.html" className>Business Growth</a></li>
-                                        <li><a href="contact.html" className>Contact us</a></li>
+                                        <li><a href="" className>Nosotros</a></li>
+                                        <li><a href="" className>Miltilevel Bot</a></li>
+                                        <li><a href="" className>E-learning</a></li>
+                                        <li><a href="" className>Trading</a></li>
+                                        <li><a href="" className>Business Growth</a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-md-4 col-sm-4 col-xs-12">
                                 <div className="footer-Update">
-                                    <h5>News Update</h5>
+                                    <h5>Actualidad</h5>
                                     <div className="footer-News">
                                         <h6><a href="#" className>The Original Business Doctors<br /> support to business</a></h6>
                                         <p>january 02,2017</p>

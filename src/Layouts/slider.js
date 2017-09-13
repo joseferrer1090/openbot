@@ -1,8 +1,11 @@
-import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
-import img1 from './img/bannerslider.jpg'
-import img2 from './img/bannerslider2.jpg'
-import img3 from './img/callback.jpg'
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+import img1 from './img/openbot+bg.png';
+import img2 from './img/openbot+bg1.png';
+import img3 from './img/openbot+bg2.png';
+
+
+
 
 class Slider extends Component {
     render(){

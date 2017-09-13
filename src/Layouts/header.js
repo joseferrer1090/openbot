@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 
 import LogOpenBot from './../Layouts/img/Recurso2.png'
 
+
 class Header extends Component {
     render(){
         return(
@@ -25,15 +26,13 @@ class Header extends Component {
                     </div>
                     <div className="social-icon float-left hidden">
                         <ul>
-                            <li><a href="#" className><i className="fa fa-facebook fa-1x" aria-hidden="true" /></a></li>
-                            <li><a href="#" className><i className="fa fa-twitter fa-1x" aria-hidden="true" /></a></li>
-                            <li><a href="#" className><i className="fa fa-instagram fa-1x" aria-hidden="true"></i></a></li>
+                            <li><a href="#" className> <i className="fa fa-language" aria-hidden="true"></i> </a></li>
                         </ul>
                     </div>
-                    <div className="search float-right theme-search-box">
+                    <div className="search float-right theme-search-box hidden">
                         <form>
-                            <input type="text" className="search-color" placeholder="Buscar" />
-                            <button><span className><i className="fa fa-search" /></span></button>
+                            <input type="text" className="search-color" placeholder="" />
+                            <button><span className><i className="fa fa-language" /></span></button>
                         </form>
                     </div>
                 </div>

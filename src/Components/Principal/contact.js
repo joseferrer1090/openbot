@@ -23,7 +23,7 @@ class Contact extends Component {
                         <div className="theme-title">
                           <h1>Hablemos</h1>
                           <h6>Deseas saber mas informacion personalizada y detallada de nuestro producto, dejanos comentario, inquietud o duda.
-                            <br /><span>info@openbot.com</span>Estamos Felices de poder ayudarte !</h6>
+                            <br /><span>soporte@openbot.co</span>Estamos Felices de poder ayudarte !</h6>
                         </div>
                         <div className="row">
                           <div className="col-lg-8 col-md-8 col-sm-6 col-xs-12">
@@ -66,10 +66,9 @@ class Contact extends Component {
                           <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div className="contact-single-list">
                               <ul>
-                                <li><a href="#" className><i className="flaticon-technology" aria-hidden="true" />( +57 ) </a></li>
-                                <li><a href="#" className><i className="flaticon-mail" aria-hidden="true" />info@openbot.com</a></li>
-                                <li className><a href="#"><i className="fa fa-globe" aria-hidden="true" /></a><p> </p></li>
-                                <li> </li>
+                                <li><a href="#" className><i className="flaticon-technology" aria-hidden="true" /> 07378364465 </a></li>
+                                <li><a href="#" className><i className="flaticon-mail" aria-hidden="true" />soporte@openbot.com</a></li>
+                                
                               </ul>
                             </div> 
                             <div className="social-icon">

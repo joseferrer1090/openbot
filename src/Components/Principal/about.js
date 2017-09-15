@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom'; 
 import Header from "../../Layouts/header"; 
 import Footer from "../../Layouts/footer";
+
+import imgOffice from "./../../Layouts/img/openbot-b1.png";
+import imgTeam from "./../../Layouts/img/openbot-b2.png";
+
 class About extends Component { 
     render() { 
         return (
@@ -50,10 +54,10 @@ class About extends Component {
                                 <div className="left-sidebar-wrapper float-left">
                                     <div className="left-about">
                                         <ul>
-                                            <li><a href="about-us.html">Nuestra Compañia</a></li>
-                                            <li><a href="project.html">Que Hacemos</a></li>
+                                            <li><a href="">Nuestra Compañia</a></li>
+                                            <li><a href="">Que Hacemos</a></li>
                                             <li><a href="#">Descargar Brochures&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fa fa-file-pdf-o fa-download-1" aria-hidden="true" /></a></li>
-                                            <li><a href="#">Descargar Plan Carrera&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fa fa-file-pdf-o fa-download-1" aria-hidden="true" /></a></li>
+                                            <li><a href="#">Descargar Plan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i className="fa fa-file-pdf-o fa-download-1" aria-hidden="true" /></a></li>
                                         </ul>
                                     </div>
                                     
@@ -64,7 +68,7 @@ class About extends Component {
                                         Es el  producto estrella de una  compañía internacional con oficinas físicas en  Holanda, la cual  propone implementar sus herramientas para incrementar los resultados en el mercado de valores de las Cryptomonedas a través del Trading, guiado por expertos mundiales.
                                         </h6>
                                         <div className="img">
-                                            <img src="images/inner-page/about-us2.jpg" alt="images" />
+                                            <img src={imgOffice} alt="images" className="img-responsive" />
                                         </div>
                                         <h6> 
                                             También Open Bot es una Herramienta enfocada a mejorar los  sistemas relacionales entre  inversores y un equipo de comerciantes profesionales en cryptomonedas, con las mejores estrategias y las mejores condiciones basadas en la confianza con el objetivo de   ganar-ganar  como el foco fundamental de Nuestra Compañía.
@@ -122,7 +126,7 @@ class About extends Component {
                                                 </div>
                                             </div>
                                             <div className="float-right">
-                                                <img src="images/inner-page/about-us3.jpg" alt="company" style={{marginTop: '50px'}}/>
+                                                <img src={imgTeam} alt="company" className="img-responsive" style={{marginTop: '50px'}}/>
                                             </div>
                                         </div>
                                     </div>

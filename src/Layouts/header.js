@@ -20,7 +20,7 @@ class Header extends Component {
                                 Direccion Direccion</li>
                             <li>
                                 <div className="icon"><i className="flaticon-mail  header-flat" aria-hidden="true" /></div>
-                                info@openbot.com
+                                soporte@openbot.co
                             </li>
                         </ul>
                     </div>

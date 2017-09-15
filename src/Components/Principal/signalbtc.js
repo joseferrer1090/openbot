@@ -17,11 +17,7 @@ class SignalBTC extends Component {
                             </div>
                         </div>
                     </section>
-                    <section className="about-us-section service-single">
-                        <div className="container">
-                            
-                        </div>
-                    </section>
+                    
                 </div>
                 <Footer/>
             </div>

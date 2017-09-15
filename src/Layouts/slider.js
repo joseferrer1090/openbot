@@ -18,8 +18,8 @@ class Slider extends Component {
                                 <h5 className="wow fadeInUp animated">Make your startup business</h5>
                                 <h1 className="wow fadeInUp animated" data-wow-delay="0.5s">Best Business <span>Consulting</span></h1>
                                 <h6 className="wow fadeInUp animated" data-wow-delay="1s">There are two types of people who will tell you that you cannot make a difference in this world: those <span />who are afraid to try and those who are afraid you will succeed."</h6>
-                                <a href="about-us-v1.html" className="wow fadeInLeft animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Get Started</a>
-                                <a href="contact-us.html" className="wow fadeInRight animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Get Consulting</a>
+                                <a href="" className="wow fadeInLeft animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Ingresa</a>
+                                <a href="" className="wow fadeInRight animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Contactanos</a>
                             </div>
                         </div>
                     </div>
@@ -29,8 +29,8 @@ class Slider extends Component {
                                 <h5 className="wow fadeInUp animated">Make your startup business</h5>
                                 <h1 className="wow fadeInUp animated" data-wow-delay="0.5s">Best Business <span>Consulting</span></h1>
                                 <h6 className="wow fadeInUp animated" data-wow-delay="1s">There are two types of people who will tell you that you cannot make a difference in this world: those <span />who are afraid to try and those who are afraid you will succeed."</h6>
-                                <a href="about-us-v1.html" className="wow fadeInLeft animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Get Started</a>
-                                <a href="contact-us.html" className="wow fadeInRight animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Get Consulting</a>
+                                <a href="" className="wow fadeInLeft animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Ingresa</a>
+                                <a href="" className="wow fadeInRight animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Contactanos</a>
                             </div>
                         </div>
                     </div>
@@ -40,8 +40,8 @@ class Slider extends Component {
                                 <h5 className="wow fadeInUp animated">Make your startup business</h5>
                                 <h1 className="wow fadeInUp animated" data-wow-delay="0.5s">Best Business <span>Consulting</span></h1>
                                 <h6 className="wow fadeInUp animated" data-wow-delay="1s">There are two types of people who will tell you that you cannot make a difference in this world: those <span />who are afraid to try and those who are afraid you will succeed."</h6>
-                                <a href="about-us-v1.html" className="wow fadeInLeft animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Get Started</a>
-                                <a href="contact-us.html" className="wow fadeInRight animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Get Consulting</a>
+                                <a href="" className="wow fadeInLeft animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Ingresa</a>
+                                <a href="" className="wow fadeInRight animated hvr-shutter-out-horizontal-two" data-wow-delay="1s">Contactanos</a>
                             </div>
                         </div>
                     </div>

@@ -4,6 +4,9 @@ import {Link} from 'react-router-dom';
 import Header from './../../Layouts/header';
 import Footer from './../../Layouts/footer';
 
+import imgBot from './../../Layouts/img/botimg.png';
+import imgBot2 from './../../Layouts/img/bot.png';
+
 class Bot extends Component {
     render() {
         return (
@@ -30,7 +33,7 @@ class Bot extends Component {
                                 <div className="widget-text">
                                 <h3>OpenBot el mejor Bot del mercado</h3>
                                 <h6>Te ofrecemos el mejor bot para trading con la configuracion mas facil del marcado, y el mas accesible</h6>
-                                <a href="about-us.html" className>Registrate&nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></a>
+                                <a href="#" className>Registrate&nbsp;&nbsp;<i className="fa fa-long-arrow-right" aria-hidden="true" /></a>
                                 </div> 
                             </div>
                             </div> 
@@ -43,7 +46,7 @@ class Bot extends Component {
                         <div className="right-sidebar-wrapper float-right">
                             <div className="right-about">
                             <div className="img images-hover">
-                                <img src="images/project/project-singlevs1.jpg" alt="images" />
+                                <img src={imgBot2} alt="images" />
                             </div>
                             <div className="overview">
                                 <h4>OpenBot (Bot)</h4>
@@ -54,46 +57,7 @@ class Bot extends Component {
                                     Criptomonedas.
                                 </h6>
                             </div>
-                            <div className="history-info service-info">
-                                <div className="row">
-                                <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <h2>Category</h2>
-                                    <div className="history-text">
-                                    <span>Finance</span>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <h2>Client</h2>
-                                    <div className="history-text middle-history">
-                                    <span>themeforest</span>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <h2>Status</h2>
-                                    <div className="history-text">
-                                    <span>On Going</span>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <h2>Date</h2>
-                                    <div className="history-text">
-                                    <span>21 February, 2017</span>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <h2>URL</h2>
-                                    <div className="history-text">
-                                    <span>www.themeforest.com</span>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-sm-4 col-xs-4">
-                                    <h2>Valu</h2>
-                                    <div className="history-text">
-                                    <span>$50,000</span>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
+                            <img src={imgBot} alt="" className="img-responsive"/>
                             <div className="social-icon">
                                 <ul>
                                 <li><a href="#" className><i className="fa fa-facebook" aria-hidden="true" /></a></li>

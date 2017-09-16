@@ -5,6 +5,7 @@ import Header from './../../Layouts/header';
 import Footer from './../../Layouts/footer';
 
 import imgEstructura from './../../Layouts/img/estructura.png';
+import imgLevel from './../../Layouts/img/level.png';
 
 class Botlevel extends Component {
     render() {
@@ -41,7 +42,7 @@ class Botlevel extends Component {
                         <div className="right-sidebar-wrapper float-right">
                             <div className="right-about">
                             <div className="img images-hover">
-                                <img src="images/project/project-singlevs1.jpg" alt="images" />
+                                <img src={imgLevel} alt="images" />
                             </div>
                             <div className="overview">
                                 <h4>Plan carrera (MultilevelBot)</h4>
